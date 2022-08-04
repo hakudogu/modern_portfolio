@@ -1,0 +1,226 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    min-height:50vh;
+
+}
+
+.contact_backgroundM{
+    height: 100vh;
+    display: grid;
+    background-image: url('./contact_background.png');
+    background-size:contain;
+    /* background-blend-mode:hard-light; */
+    /* background-repeat: no-repeat; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, minmax(5rem,1fr));
+    grid-template-areas: 
+    
+    'z z z z'
+    'i j j k'
+    'i j j k'
+    'i j j k'
+    ;
+}
+.contact_backgroundM .padding:nth-child(1){
+    grid-area: i;
+}
+.contact_backgroundM .padding:nth-child(2){
+    grid-area: k;
+}
+.contact_backgroundM .padding:nth-child(3){
+    grid-area: z;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact_background{
+    
+    grid-area: j;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%
+
+}
+.contact_container{
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px ridge;
+    border-color: rgba(0, 0, 0, 0.4);
+       border-radius: 1rem;
+       color: black;
+       font-size: large;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 8rem);
+    grid-template-areas: 
+    'a a a b'
+    'a a a c'
+    ;
+    gap: 1rem;
+}
+#number_qr img{
+    
+    width:10rem;
+
+}
+#number_qr{
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+#email_qr{
+    /* font-size: medium    ; */
+    font-size: small;
+    grid-area:b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 10rem; */
+}
+ #email_qr img{
+    display: flex;
+    /* grid-area: b; */
+    width: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+#contact_icons{
+    font-size: 1rem;
+}
+.contact_icons{
+
+    grid-area: c;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    'g g l m h h'
+    'g g n o h h';
+    gap:0.5rem;
+    /* font-size: 1rem; */
+}
+.contact_icons .padding:nth-child(1){
+    grid-area: g;
+}
+.contact_icons .padding:nth-child(2){
+    grid-area: h;
+}
+.contact_icons a:nth-child(1){
+    grid-area: l;
+}
+.contact_icons a:nth-child(2){
+    grid-area: m;
+}
+.contact_icons a:nth-child(3){
+    grid-area: n;
+}
+.contact_icons a:nth-child(4){
+    grid-area: o;
+}
+@media only screen and (max-width: 600px){
+.contact_backgroundM{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (4, minmax(2rem,7rem));
+    grid-template-areas: 
+    'z z z z'
+    'i j j k'
+    'i j j k'
+    'i j j k'
+    ;
+}
+.contact_backgroundM .padding:nth-child(1){
+    grid-area: i;
+}
+.contact_backgroundM .padding:nth-child(2){
+    grid-area: k;
+}
+.contact_backgroundM .padding:nth-child(3){
+    grid-area: z;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact_background{
+    grid-area: j;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 100%;
+
+}
+.contact_container{
+    border: 3px ridge;
+    border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 7rem);
+    grid-template-areas: 
+    'a  b'
+    'a  c'
+    ;
+    gap: 1rem;
+}
+#number_qr{
+    grid-area: a;
+    width:10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ #email_qr{
+    display: flex;
+    grid-area: b;
+    width: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* display: flex; */
+}
+#contact_icons{
+    font-size: 1rem;
+}
+.contact_icons{
+    
+    grid-area: c;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    'g g l m h h'
+    'g g n o h h';
+    gap:0.5rem;
+    /* font-size: 1rem; */
+}
+.contact_icons .padding:nth-child(1){
+    grid-area: g;
+}
+.contact_icons .padding:nth-child(2){
+    grid-area: h;
+}
+.contact_icons a:nth-child(1){
+    grid-area: l;
+}
+.contact_icons a:nth-child(2){
+    grid-area: m;
+}
+.contact_icons a:nth-child(3){
+    grid-area: n;
+}
+.contact_icons a:nth-child(4){
+    grid-area: o;
+}
+}

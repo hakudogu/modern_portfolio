@@ -1,0 +1,14 @@
+/* .route_background {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr ;
+}  */
+ .route_background h1,h2{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+display: flex;
+flex-direction: column;
+}
