@@ -73,6 +73,10 @@
     border: 1px solid black ;
     border-radius: 1rem;
   }
+  .sidebar h2{
+    font-size: 1rem;
+    font-weight: bold;
+  }
   .sidebar2{
     border: 1px solid black ;
     border-radius: 1rem;

@@ -13,15 +13,15 @@ export class About extends Component {
                   <h2>Detailed experience on CV</h2>
                   
                   <div className='img_container'>
-                    <FontAwesomeIcon id='icon'icon={ faFile}/><a target='_blank' href='https://drive.google.com/file/d/1E-59joJ1jPEjkhqsII8tjF7dl73GiN2O/view?usp=sharing'>
+                    <FontAwesomeIcon id='icon'icon={ faFile}/><a target='_blank' href='https://docs.google.com/document/d/1wcXktycPPfSaZNefRMGKOOCaWy90AGIAU55OIJ1ly-M/edit'>
                       <button><p>Download</p></button></a></div>
                       <label><p>Download CV</p> </label>  
         
               </div>
               <div className='sidebar'>
                 
-                  <p>Total number of images edited: </p>
-                  <p>Total number of content posted: </p>
+                  <p>Total number of images edited: <h2>50+</h2></p>
+                  <p>Total number of content posted: <h2>20+</h2></p>
                       
               </div>
               <div className='sidebar2'>
