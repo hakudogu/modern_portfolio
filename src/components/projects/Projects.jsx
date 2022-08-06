@@ -37,7 +37,7 @@ export class Projects extends Component {
             <h2>Treasure Hunting Game</h2>
             <a rel='noreferrer'target='_blank' href='https://treasure-map-game.vercel.app/'>
               <img width='250px' height='250px'src={img1} alt='treasure hunt thumbnail'/>
-            <br/><span className='status'>Status: Live <Icon icon ="fluent:live-off-24-filled"/></span><br/>
+            <br/><span className='status'>Status: Live <Icon icon ="fluent:live-24-filled"/></span><br/>
               {/* <p>A jollibee landing page clone</p> */}
             <span>A simple Javascript-JQuery treasure hunting game</span>
               </a>
