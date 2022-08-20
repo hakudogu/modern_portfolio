@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './projects.css'
 import img1 from './treasuremap.png'
 import img2 from './portfolio img1 small.png'
+import img3 from './Shop.jpg'
 // import img1 from './Guide to gaming laptop.jpg'
 import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome'
 // import { faFacebook, faLinkedin, faGithub,  faTwitter }  from '@fortawesome/free-brands-svg-icons'
@@ -60,7 +61,7 @@ export class Projects extends Component {
             <Link to='/'>
               <img width='250px' height='250px'src={img2} alt='treasure hunt thumbnail'/>
             <br/><span className='status'>Status: Live <Icon icon ="fluent:live-24-filled"/></span><br/>
-              {/* <p>A jollibee landing page clone</p> */}
+            
             <span>A fully responsive Portfolio</span>
               </Link>
             <div className='icons2'> 
@@ -76,7 +77,33 @@ export class Projects extends Component {
                </div>
             <span>Technologies used</span>
           </div>
+          <div className='project'id='coffeeBean'>
+            <h2>Coffee Bean Landing Page Clone</h2>
+            <a target='_blank' rel='noreferrer' href='https://coffee-bean-landing-page-clone.vercel.app/'>
+              <div className='logo-container'>
+              <img width='250px' height='250px' src={img3}/>
+              <img width='150px' height='20px'src='https://www.coffeebean.com.ph/wp-content/themes/mondays-made-better-theme/dist/images/brand/logo-desktop_59e7c25c.svg' alt='treasure hunt thumbnail'/>
+              </div>
+            <br/><span className='status'>Status: Live <Icon icon ="fluent:live-24-filled"/></span><br/>
+            
+            <span>A React JS web clone</span>
+            </a>
+            
+            <div className='icons2'> 
+              
+              <div><Icon className='' icon="akar-icons:css-fill" /><span>CSS3</span>
+                </div>
+                <div><Icon className='' icon="akar-icons:html-fill" /><span>HTML</span>
+               </div>
+                <div><Icon icon="simple-icons:tailwindcss" /><span>TailwindCSS</span>
+             </div> 
+             <div><Icon className='' icon="akar-icons:react-fill" /><span>React</span>
+               </div>
+               </div>
+            <span>Technologies used</span>
+          </div>
         </div>
+        
         <div className='bottom_portion'>
         <hr/>
         <h1>Upcoming Projects</h1>
