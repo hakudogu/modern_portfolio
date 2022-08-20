@@ -14,6 +14,31 @@ export class Projects extends Component {
       <div className='projects_background'>
         <h1>Completed Projects</h1>
         <div className='projects_container'>
+        <div className='project'id='coffeeBean'>
+            <h2>Coffee Bean Landing Page Clone</h2>
+            <a target='_blank' rel='noreferrer' href='https://coffee-bean-landing-page-clone.vercel.app/'>
+              <div className='logo-container'>
+              <img width='250px' height='250px' src={img3}/>
+              <img width='150px' height='20px'src='https://www.coffeebean.com.ph/wp-content/themes/mondays-made-better-theme/dist/images/brand/logo-desktop_59e7c25c.svg' alt='treasure hunt thumbnail'/>
+              </div>
+            <br/><span className='status'>Status: Live <Icon icon ="fluent:live-24-filled"/></span><br/>
+            
+            <span>A React JS web clone</span>
+            </a>
+            
+            <div className='icons2'> 
+              
+              <div><Icon className='' icon="akar-icons:css-fill" /><span>CSS3</span>
+                </div>
+                <div><Icon className='' icon="akar-icons:html-fill" /><span>HTML</span>
+               </div>
+                <div><Icon icon="simple-icons:tailwindcss" /><span>TailwindCSS</span>
+             </div> 
+             <div><Icon className='' icon="akar-icons:react-fill" /><span>React</span>
+               </div>
+               </div>
+            <span>Technologies used</span>
+          </div>
           <div className='project' id='jollibee'>
             <h2>Jollibee Landing Page Clone</h2>
             <a rel='noreferrer'target='_blank' href='https://jollibee-clone.vercel.app/'>
@@ -77,31 +102,7 @@ export class Projects extends Component {
                </div>
             <span>Technologies used</span>
           </div>
-          <div className='project'id='coffeeBean'>
-            <h2>Coffee Bean Landing Page Clone</h2>
-            <a target='_blank' rel='noreferrer' href='https://coffee-bean-landing-page-clone.vercel.app/'>
-              <div className='logo-container'>
-              <img width='250px' height='250px' src={img3}/>
-              <img width='150px' height='20px'src='https://www.coffeebean.com.ph/wp-content/themes/mondays-made-better-theme/dist/images/brand/logo-desktop_59e7c25c.svg' alt='treasure hunt thumbnail'/>
-              </div>
-            <br/><span className='status'>Status: Live <Icon icon ="fluent:live-24-filled"/></span><br/>
-            
-            <span>A React JS web clone</span>
-            </a>
-            
-            <div className='icons2'> 
-              
-              <div><Icon className='' icon="akar-icons:css-fill" /><span>CSS3</span>
-                </div>
-                <div><Icon className='' icon="akar-icons:html-fill" /><span>HTML</span>
-               </div>
-                <div><Icon icon="simple-icons:tailwindcss" /><span>TailwindCSS</span>
-             </div> 
-             <div><Icon className='' icon="akar-icons:react-fill" /><span>React</span>
-               </div>
-               </div>
-            <span>Technologies used</span>
-          </div>
+          
         </div>
         
         <div className='bottom_portion'>
