@@ -16,7 +16,7 @@
 }
 .projects_container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30rem,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(23rem,1fr));
     margin-bottom: 5rem;
 }
 .project{
