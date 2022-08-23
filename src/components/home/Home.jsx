@@ -21,7 +21,7 @@ export class Home extends Component {
     return (
       <div className='home_background'>
         <div className='landing_container'>
-        <div className='landing_section'>
+        <div className='landing_section py-20 pb-40'>
             <div className='one'></div>
                <div className='oneNhalf'></div>
                  <div className='two'>
@@ -70,7 +70,7 @@ export class Home extends Component {
             </div>
             </fieldset>
             {/* </div> */}
-          <div className='cta'> 
+          <div className='cta py-20 pb-40'> 
           <div className='one'></div>
                <div className='oneNhalf'></div>
                  <div className='two'><img id='img2'src={Img2}/>

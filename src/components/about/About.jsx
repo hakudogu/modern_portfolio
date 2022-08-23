@@ -14,7 +14,7 @@ export class About extends Component {
                   
                   <div className='img_container'>
                     <FontAwesomeIcon id='icon'icon={ faFile}/><a target='_blank' href='https://docs.google.com/document/d/1wcXktycPPfSaZNefRMGKOOCaWy90AGIAU55OIJ1ly-M/edit'>
-                      <button><p>Download</p></button></a></div>
+                      <button className='bg-green-800 p-2 border-white'><p className='text-white font-thin text-sm hover:text-lg'>Download</p></button></a></div>
                       <label><p>Download CV</p> </label>  
         
               </div>
