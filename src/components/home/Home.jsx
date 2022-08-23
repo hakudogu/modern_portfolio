@@ -27,7 +27,11 @@ export class Home extends Component {
                  <div className='two'>
                 <h1 id='h1'>Hello! My name is Carlo</h1>
                 <h2 id='h22'>I am a front end developer <br/> and graphic designer</h2>
-                <Link to='/about'><button className='comp_button'>Check Resume</button></Link>
+                <Link to='/about'><button className='comp_button'>
+                  <p className='p-1 hover:text-sm text-xs'>
+                    Check Resume
+                    </p>
+                    </button></Link>
                  
                  
                  </div>
@@ -39,7 +43,7 @@ export class Home extends Component {
           </div> 
           {/* <div className='skillSet'> */}
          <fieldset >
-         <legend><h2>Tools I love to use! </h2>  </legend>
+         <legend className='text-xs'><h2>Tools I love to use! </h2>  </legend>
             <div className='skill_container'>
               
               <div className='k'></div>
@@ -72,10 +76,16 @@ export class Home extends Component {
                  <div className='two'><img id='img2'src={Img2}/>
                
                  </div>
-                <div className='three'>
-                 <h1 id='h1'>Give me coffee</h1>
-                <h2 id='h22'>I will give you design</h2>
-               <Link  to='/contact'> <button className='comp_button'><p>Reach Out!</p></button></Link>
+                <div className='three gap-6'>
+                 <h1 className='text-4xl' id='h1'>Give me coffee</h1>
+                <p id='h22' className='text-sm'>I will give you design</p>
+               <Link  to='/contact'>
+                <button className='comp_button flex'>
+                <p className='p-2 align-center text-center justify-center text-xs hover:text-center hover:p-3 hover:text-sm'>
+                  Reach Out!
+                  </p>
+                  </button>
+                  </Link>
                </div>
             <div className='threeNhalf'></div>
             <div className='four'></div> 
@@ -83,23 +93,37 @@ export class Home extends Component {
           </div>
        
           {/* <hr id='hr'/> */}
-        <div className='footer'>
-        
-        <div className='icons'>
-              <div className='padding'><p>CONNECT<br/> WITH ME:</p></div>
-              <div className='padding'></div>
+        <div className='bg-slate-300'>
+        <h2 className='text-sm pt-2'><i>
+          Connect With Me!
+          </i>
+          </h2>
+        <div className='grid grid-cols-4 w-1/2 mx-auto py-4'>
+              
+              <div className=''>
+
               <a target='_blank' href="https://www.facebook.com/brizcarlo"> 
-                <FontAwesomeIcon icon={faFacebook}/><span><p>Facebook</p></span>
+                <FontAwesomeIcon className=' hover:text-3xl hover:text-sky-700' icon={faFacebook}/><span><p>Facebook</p></span>
               </a>
-                <a target='_blank' href='https://www.linkedin.com/in/carlo-briz-210686aa/'> 
-                <FontAwesomeIcon icon={faLinkedin}/><span><p>Linkedin</p></span>
+              </div>
+              <div className=''>
+                <a className=''target='_blank' href='https://www.linkedin.com/in/carlo-briz-210686aa/'> 
+                <FontAwesomeIcon className='hover:text-teal-700 hover:text-3xl' icon={faLinkedin}/><span><p>Linkedin</p></span>
               </a>
+                
+              </div>
+              <div className=''>
                 <a target='_blank' href='https://github.com/hakudogu?tab=repositories'> 
-                <FontAwesomeIcon icon={faGithub}/><span><p>Github</p></span>
+                <FontAwesomeIcon className=' hover:text-3xl hover:text-gray-900' icon={faGithub}/><span><p>Github</p></span>
               </a>
+                
+              </div>
+              <div className=''>
                 <a target='_blank' href='https://twitter.com/dracula690'> 
-                <FontAwesomeIcon icon={faTwitter} /><span><p>Twitter</p></span>
+                <FontAwesomeIcon className=' hover:text-3xl hover:text-sky-400'  icon={faTwitter} /><span><p>Twitter</p></span>
               </a >              
+                
+              </div>
           </div>
         </div>
       </div>

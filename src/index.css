@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 :root{
   --font-family1:'Anton' ;
   --font-family2:'Montserrat' ;
+  --font-family3: 'Sacramento';
 
 }
 body {
@@ -18,3 +20,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

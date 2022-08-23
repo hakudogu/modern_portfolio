@@ -13,7 +13,8 @@ function Navbar() {
             <li><Link className='navbar_cards' to='/about'><h2>About</h2></Link></li>
             <li><Link className='navbar_cards' to='/projects'><h2>Projects</h2></Link></li>
             <li><Link className='navbar_cards' to='/contact'><h2>Contact</h2></Link></li>
-
+           
+           
         </div>
               </div>
          

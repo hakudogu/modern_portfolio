@@ -13,7 +13,6 @@ overflow: hidden; */
      /* background-image: url('./wave-blue3.png'); */
      /* background-repeat: no-repeat; */
      height: 100%;
-    background-color: #FFFFFF;
      background-image: linear-gradient(180deg, #FFFFFF 0%, blue 500%);
 
 }
@@ -173,23 +172,22 @@ span{
      padding: 0;
      /* height: 100%; */
 }
+h3{
+     font-family: var(--font-family3);
+}
 .icons{
      
      display: grid;
      grid-template-columns: repeat(10, 1fr);
      grid-template-rows: repeat(1, 4rem);
-     /* width: 50vw; */
-     /* justify-content: space-evenly; */
-     /* background-color: aqua; */
+     
      align-items: center;
      font-size: 1.5rem;
-     /* margin-left: 5rem;
-     margin-right: 5rem; */
+   
      grid-template-areas: 
      'h h h i i i i j j j';
      grid-area: i;
      z-index: 3;
-     /* background-color: gray; */
      
 }
 .padding:nth-child(1){
