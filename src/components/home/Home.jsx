@@ -98,7 +98,7 @@ export class Home extends Component {
           Connect With Me!
           </i>
           </h2>
-        <div className='grid grid-cols-4 w-1/2 mx-auto py-4'>
+        <div className='grid grid-cols-4 w-4/5 md:w-1/2 mx-auto text-sm py-4'>
               
               <div className=''>
 
