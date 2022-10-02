@@ -1,21 +1,26 @@
 import React, { Component } from 'react'
 import './letter.css'
 import img1 from './sunflower.png'
+import img2 from './sttherese.png'
+import { Link } from 'react-router-dom'
 export class Letter extends Component {
   render() {
     return (
     
-      <div className='letter  container justify-center flex mx-auto w-1/2'>
-        <img className=' opacity-60 relative'src={img1} alt='sunflower'/>
-        <h1  className='text-black mx-auto w-1/2 font-semibold container text-2xl absolute'>
-       <h1 className='font-semibold py-6'>
+      <div className='relative'>
+        <img className=' opacity-60 absolute'src={img1} alt='sunflower'/>
+        <div className='letter justify-center flex mx-auto w-1/2 sm:4/5'>
+
+        <h1  className='text-black mx-auto  font-semibold container text-2xl '>
+       <h1 className='font-semibold  py-6'>
         Dear Isay,
         </h1> 
         <br/>
-<p>
+        
+<p className='text-black z-10'>
   
 Hi Koy, Kumusta ka? I hope you are doing well 
-and that you’re happy. Me? I am doing fine as well.
+and that you&apos;re happy. Me? I am doing fine as well.
  Our time in the past has no question one of the best times
   of my life and I thank you for it. I regret nothing, 
      we did our best shots, limited and fragile as we were.
@@ -41,29 +46,31 @@ and that you’re happy. Me? I am doing fine as well.
      </p>
       <br/> 
       Peace out koy! thanks.
-       <p>
-       &#x1f64f; &#x1f64f; &#x1f64f;
+       <p className=''>
         </p>
-
       yours,
       Carlo
       {/* I urge you (as I urge myself) to keep the important 
       lessons we learned, I know you will be at a better 
       place because I know you constantly seek a better
-       place and a better self. As for myself, I will strive
-        to be best at the endeavors that I chose to do. 
-        I will seek a better place for me as well always, 
-        a better coming to terms with myself, a better path 
-        of life. I will always strive to become a better man.
-         There is nothing stopping me from achieving my dreams. 
-         The past me and my present self still has a place for
-          you in my heart, there is no question about that, in 
-          the future when the time comes that we meet again, I 
-          still want to be able to speak to you, as a friend who
-           did not see you for a long time, when I meet you we
-            might have our lives sorted */}
+      place and a better self. As for myself, I will strive
+      to be best at the endeavors that I chose to do. 
+      I will seek a better place for me as well always, 
+      a better coming to terms with myself, a better path 
+      of life. I will always strive to become a better man.
+      There is nothing stopping me from achieving my dreams. 
+      The past me and my present self still has a place for
+      you in my heart, there is no question about that, in 
+      the future when the time comes that we meet again, I 
+      still want to be able to speak to you, as a friend who
+      did not see you for a long time, when I meet you we
+    might have our lives sorted */}
 
         </h1>
+    </div>
+    <Link to='/prayer'>
+      <img className='w-12'src={img2} alt='st therese pray for us'/>
+    </Link>
          </div>
     )
   }
